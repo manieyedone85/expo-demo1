@@ -6,6 +6,7 @@ import { Text, View } from '../components/Themed';
 import { RootTabScreenProps } from '../types';
 
 export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
+  console.log("TabTwoScreen here ...");
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tab One , Hi welcome to Zero 2 Publish</Text>

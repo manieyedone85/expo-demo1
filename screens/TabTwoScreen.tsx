@@ -5,6 +5,7 @@ import EditScreenInfo from '../components/EditScreenInfo';
 import { Text, View } from '../components/Themed';
 
 export default function TabTwoScreen() {
+  console.log("TabTwoScreen here ...");
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tab Two Z2P</Text>
